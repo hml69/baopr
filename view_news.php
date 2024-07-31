@@ -29,6 +29,8 @@ $total_news = $data_total_news['total'];
 // Get all categories
 // $sql_categories = "SELECT * FROM categories";
 // $result_categories = $conn->query($sql_categories);
+// Đóng kết nối
+$conn->close();
 ?>
 
 <!DOCTYPE html>
